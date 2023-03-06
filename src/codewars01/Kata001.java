@@ -11,10 +11,10 @@ public class Kata001 {
 	
 	List<Integer> kata02 = new ArrayList<Integer>();
 	
-	Iterator<Object> iterator01= kata01.iterator();
+	Iterator<Object> iterator01 = kata01.iterator();
 	
 	System.out.println(kata01);
-	//리스트를 받고 리스트를 셋으로 만들어서
+
 	//리스트를 반복하는 Iterator<String> nameNumber= hm.keySet().iterator();
 	// if 문으로 문자열인지 정수인지 확인해서
 	// 정수라면 새로운 list에 add를 한다
