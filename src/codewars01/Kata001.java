@@ -19,10 +19,9 @@ public class Kata001 {
 	// if 문으로 문자열인지 정수인지 확인해서
 	// 정수라면 새로운 list에 add를 한다
 	while(iterator01.hasNext()){
-	if(iterator01.next() instanceof Integer) {
-		kata02.add((Integer) iterator01.next());
-		
-		
+		Object object = iterator01.next();
+		if(object instanceof Integer) {
+			kata02.add((Integer) object);
 		}
 	}
 
